@@ -1,0 +1,26 @@
+body {
+  background-color: royalblue; }
+
+.banner {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto); }
+  .banner .links {
+    grid-column: 2/3;
+    justify-self: center; }
+  .banner h1 {
+    grid-column: 2/3;
+    justify-self: center; }
+  .banner h2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    justify-self: center; }
+
+a:link {
+  color: black; }
+
+a:visited {
+  color: black; }
+
+/*# sourceMappingURL=portfolio.css.map */
