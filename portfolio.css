@@ -1,5 +1,5 @@
 html {
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 @media (min-width: 576px) {
   html {
@@ -17,14 +17,27 @@ html {
   font-size: 3em; }
 
 main {
-  background: #FFEB3B;
-  color: #1E1E1E; }
+  animation: 10000ms ease-in-out infinite color-change;
+  color: #1e1e1e; }
 
+@keyframes color-change {
+  0% {
+    background-color: teal; }
+  20% {
+    background-color: gold; }
+  40% {
+    background-color: indianred; }
+  60% {
+    background-color: violet; }
+  80% {
+    background-color: green; }
+  100% {
+    background-color: teal; } }
 .icons-social a {
-  color: #1E1E1E; }
+  color: #1e1e1e; }
 
 .icons-social a svg path {
-  fill: #1E1E1E; }
+  fill: #1e1e1e; }
 
 /* Custom Styles */
 main {
@@ -36,7 +49,7 @@ main {
   text-align: center; }
 
 main > .intro {
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: "Reem Kufi", sans-serif;
   font-size: 3.75em;
   font-weight: 600; }
 
@@ -49,10 +62,10 @@ main > .tagline {
   padding: 10px; }
 
 .devto {
-  margin-bottom: -0.20rem; }
+  margin-bottom: -0.2rem; }
 
 .devto svg {
-  margin-bottom: -0.20rem;
+  margin-bottom: -0.2rem;
   margin-left: 0.675rem;
   width: 2.65rem;
   height: 2.65rem; }
