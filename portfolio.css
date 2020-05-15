@@ -22,17 +22,17 @@ main {
 
 @keyframes color-change {
   0% {
-    background-color: teal; }
+    background-color: #ff6600; }
   20% {
     background-color: gold; }
   40% {
-    background-color: indianred; }
+    background-color: orange; }
   60% {
-    background-color: violet; }
+    background-color: orangered; }
   80% {
-    background-color: green; }
+    background-color: red; }
   100% {
-    background-color: teal; } }
+    background-color: #801a00; } }
 .icons-social a {
   color: #1e1e1e; }
 

@@ -37,22 +37,22 @@ main {
 
 @keyframes color-change {
   0% {
-    background-color: teal;
+    background-color: rgb(255, 102, 0);
   }
   20% {
     background-color: gold;
   }
   40% {
-    background-color: indianred;
+    background-color: orange;
   }
   60% {
-    background-color: violet;
+    background-color: orangered;
   }
   80% {
-    background-color: green;
+    background-color: red;
   }
   100% {
-    background-color: teal;
+    background-color: rgb(128, 26, 0);
   }
 }
 
